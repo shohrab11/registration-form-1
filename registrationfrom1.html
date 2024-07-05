@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration 1</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .form {
+            display: flex;
+            border: 1px solid black;
+            margin: auto;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .form-container{
+            width: 400px;
+            background-color: #021a66;
+        }
+        .form-container input{
+            padding-left: 10px;
+        }
+        h2{
+            padding: 10px 0;
+            color: #fff;
+            background-color: #010c31;
+            text-align: center
+        }
+
+        .input-field {
+            border: 1px solid black;
+            background-color: #fff;
+            width: 300px;
+            display: block;
+            height: 30px;
+            margin: 20px auto;
+            border-radius: 5px;
+            
+        }
+        .register {
+            border: 1px solid #000000;
+            text-align: center;
+            color: white;
+            background-color: darkgreen;
+            padding: 5px 20px;
+            margin: 20px 50px;
+            border-radius: 5px;
+            font-size: 19px;
+        }
+        .register:hover{
+          background-color:#212d53;
+          font-weight: bold;
+          transition-duration: 1s;
+        }
+        .checkbox {
+            color: #fff;
+            border-radius: 5px; 
+            padding-left: 35px;
+        }
+        .checkbox span{
+            padding-left: 20px;
+            display:inline-flex;
+            padding-bottom: 10px;
+        }
+        .btn-submit{
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="form">
+        <div class="form-container">
+            <form>
+                <h2 class="form-title">Registration Form</h2>
+                <input type="text" class="input-field" name="First-Name" placeholder="First Name">
+                <input type="text" class="input-field" name="Second-Name" placeholder="Second Name">
+                <input type="email" class="input-field" name="email" placeholder="Email">
+                <input type="password" class="input-field" name="password" placeholder="Password">
+
+                <p class="checkbox"><input type="checkbox" name="term"> <span class="checkbox-text">Lorem ipsum dolor, sit amet
+                        consectetur. <br>
+                        Deleniti voluptatum id cum veritatis</span>
+                </p>
+                <p class="checkbox"><input type="checkbox" name="condition"> <span>Lorem ipsum dolor, sit amet
+                        consectetur. <br>
+                        Deleniti voluptatum id cum veritatis</span>
+                </p>
+                <div class="btn-submit">
+                    <button type="submit" class="register">Register</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
